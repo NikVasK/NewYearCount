@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Брянск!</title>
+    <link rel="stylesheet" href="/styles/normilize.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <style>
+     
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="countdown-title">До Нового Года осталось:</h1>
+        <div id="countdown" class="countdown">
+            <div class="countdown-number">
+                <span class="days countdown-time"></span>
+                <span class="countdown-text">Days</span>
+            </div>
+            <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+                <span class="countdown-text">Hours</span>
+            </div>
+            <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+                <span class="countdown-text">Minutes</span>
+            </div>
+            <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+                <span class="countdown-text">Seconds</span>
+            </div>
+        </div>
+    </div>
+    <script src="/scripts/script.js"></script>
+    <script>let deadline = "January 01 2024 00:00:00 GMT+0300";
+        initializeClock("countdown", deadline);
+    </script>
+</body>
+
+</html>
